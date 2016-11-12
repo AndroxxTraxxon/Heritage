@@ -2,7 +2,7 @@
   "name": "heritage",
   "version": "0.1.0",
   "description": "Interactive Geneology software",
-  "main": "main.js",
+  "main": "javascript/main.js",
   "scripts": {
     "start": "electron ."
   },
