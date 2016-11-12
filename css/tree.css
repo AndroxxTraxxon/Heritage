@@ -1,0 +1,20 @@
+body{
+	background-color: beige;
+
+}
+.personNode {
+	background-color: lightblue;
+	border: 2px solid #445;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #000;
+	font-family: arial, verdana, tahoma;
+	font-size: 15px;
+	display: inline-block;
+
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+	transition: all 0.05s;
+}

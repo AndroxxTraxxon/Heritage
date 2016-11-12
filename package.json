@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AndroxxTraxxon/Heritage#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.4.6"
+    "electron-prebuilt": "^1.4.6",
+    "jQuery": "^1.7.4"
   }
 }
