@@ -1,0 +1,22 @@
+{
+  "name": "heritage",
+  "version": "0.1.0",
+  "description": "Interactive Geneology software",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndroxxTraxxon/Heritage.git"
+  },
+  "author": "David Culbreth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndroxxTraxxon/Heritage/issues"
+  },
+  "homepage": "https://github.com/AndroxxTraxxon/Heritage#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.6"
+  }
+}
