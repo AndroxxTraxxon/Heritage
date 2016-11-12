@@ -1,4 +1,5 @@
 const {app, BrowserWindow} = require('electron')
+const bootstrap = require('bootstrap')
 const path = require('path')
 const url = require('url')
 
@@ -16,7 +17,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   win.loadURL(url.format({
-    pathname: path.join(path.join(__dirname, 'pages'), 'index.html'),
+    pathname: path.join(__dirname, '\\..\\pages\\index.html'),
     protocol: 'file:',
     slashes: true
   }))
@@ -62,7 +63,7 @@ exports.openOtherWin = function(){
   })
 
   otherWin.loadURL(url.format({
-    pathname: path.join(__dirname, 'other.html'),
+    pathname: path.join(__dirname, '\\..\\pages\\other.html'),
     protocol: 'file:',
     slashes: true
   }))
